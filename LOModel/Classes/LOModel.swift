@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import LOModel
 
 open class LOModel:NSObject {
     
