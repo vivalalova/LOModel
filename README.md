@@ -20,6 +20,31 @@ it, simply add the following line to your Podfile:
 pod "LOModel"
 ```
 
+## Useage
+
+Inherit LOModel
+
+```
+class ExampleModel: LOModel {
+    var title:String?
+    var id = 0
+}
+```
+
+And init with Dictionary
+
+```
+let obj = ExampleModel(dict: ["title":"okok","identifier":123])
+
+print(obj.title)
+print(obj.id)
+print(obj.toDictionary())
+```
+
+#### Notice
+
+* Some types like integer and double must has default value example for 0
+
 ## Author
 
 vivalalova, vivalalova0@gmail.com
