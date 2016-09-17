@@ -1,0 +1,16 @@
+PODS:
+  - LOModel (0.1.0)
+
+DEPENDENCIES:
+  - LOModel (from `./`)
+
+EXTERNAL SOURCES:
+  LOModel:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LOModel: 898a3bb3a6fa98187c88375ec1837fd0cf40ec71
+
+PODFILE CHECKSUM: 995cabd37288ec98565f0ccc230095f63fcb71b1
+
+COCOAPODS: 1.1.0.rc.2
