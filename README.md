@@ -47,7 +47,7 @@ print(obj.toDictionary())
 
 ## Author
 
-vivalalova, vivalalova0@gmail.com
+vivalalova
 
 ## License
 
