@@ -19,7 +19,7 @@ open class LOModel:NSObject {
         
         self.setValuesForKeys(dict!)
     }
-    
+
     open func toDictionary() -> [String:Any] {
         let propertyNames = Mirror(reflecting: self).children.flatMap {$0.label}
         return self.dictionaryWithValues(forKeys: propertyNames)

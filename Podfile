@@ -7,4 +7,8 @@ target 'Example' do
 
   # Pods for Example
   pod 'LOModel',:path => './'
+
+  target 'ExampleTests' do
+
+  end
 end

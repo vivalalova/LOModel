@@ -26,10 +26,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         let obj = ExampleModel(dict: ["title":"okok","identifier":123])
-        
         print(obj.toDictionary())
+
+        let array = [["title":"okok","identifier":123],["title":"haha","identifier":456]].map { (dict) -> ExampleModel in
+            return ExampleModel(dict: dict)
+        }
+
+        for model in array {
+            print(model.toDictionary())
+        }
     }
 }
 
