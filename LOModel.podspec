@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LOModel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A Swift 3 data model object'
 
 # This description is used to generate tags and improve search results.
